@@ -43,6 +43,10 @@ h3 {
   @apply text-dark-raspberry-100;
 }
 
+p {
+  @apply font-light;
+}
+
 .divider {
   @apply bg-light-grey;
   @apply w-full;

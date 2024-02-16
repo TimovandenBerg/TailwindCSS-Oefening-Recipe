@@ -556,6 +556,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
 }
@@ -564,8 +568,20 @@ video {
   list-style-position: inside;
 }
 
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .list-disc {
   list-style-type: disc;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .rounded-lg {
@@ -671,6 +687,10 @@ h3 {
   color: hsl(332 51% 32% / var(--tw-text-opacity));
 }
 
+p {
+  font-weight: 300;
+}
+
 .divider {
   --tw-bg-opacity: 1;
   background-color: hsl(30 18% 87% / var(--tw-bg-opacity));
@@ -678,4 +698,12 @@ h3 {
   margin-bottom: 1.25rem;
   margin-top: 1.25rem;
   height: 1px;
+}
+
+.marker\:text-nutmeg *::marker {
+  color: hsl(14 45% 36% );
+}
+
+.marker\:text-nutmeg::marker {
+  color: hsl(14 45% 36% );
 }
