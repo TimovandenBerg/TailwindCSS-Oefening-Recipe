@@ -42,3 +42,10 @@ h2 {
 h3 {
   @apply text-dark-raspberry-100;
 }
+
+.divider {
+  @apply bg-light-grey;
+  @apply w-full;
+  @apply mb-5 mt-5;
+  height: 1px;
+}
