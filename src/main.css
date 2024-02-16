@@ -53,3 +53,14 @@ p {
   @apply mb-5 mt-5;
   height: 1px;
 }
+
+.divider--small {
+  @apply bg-light-grey;
+  @apply w-full;
+  @apply mb-2 mt-2;
+  height: 1px;
+}
+
+.p--text-nutmeg {
+  @apply text-nutmeg;
+}
