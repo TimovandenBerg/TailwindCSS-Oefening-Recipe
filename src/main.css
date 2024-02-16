@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2 {
+  font-family: 'Young Serif', sans-serif;
+  font-optical-sizing: auto;
+}
+
+h3,
+p {
+  font-family: 'Outfit', sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Colors */
+:root {
+  --clr-nutmeg: hsl(14, 45%, 36%);
+  --clr-dark-raspberry: hsl(332, 51%, 32%);
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-rose-white: hsl(330, 100%, 98%);
+  --clr-eggshell: hsl(30, 54%, 90%);
+  --clr-light-grey: hsl(30, 18%, 87%);
+  --clr-wenge-brown: hsl(30, 10%, 34%);
+  --clr-dark-charcoal: hsl(24, 5%, 18%);
+}
+
+h1 {
+  color: var(--clr-dark-charcoal);
+}
+
+h2 {
+  color: var(--clr-nutmeg);
+}
+
+h3 {
+  color: var(--clr-dark-raspberry);
+}
