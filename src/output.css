@@ -675,6 +675,17 @@ video {
   box-sizing: border-box;
 }
 
+body {
+  width: 100%;
+  margin: 0 auto;
+  @media screen and (min-width: 768px) {
+    width: 70%;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 50%;
+  }
+}
+
 img,
 picture {
   max-width: 100%;
@@ -735,4 +746,18 @@ p {
 .p--text-nutmeg {
   --tw-text-opacity: 1;
   color: hsl(14 45% 36% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:m-5 {
+    margin: 1.25rem;
+  }
+
+  .md\:rounded-lg {
+    border-radius: 0.5rem;
+  }
+
+  .md\:rounded-xl {
+    border-radius: 0.75rem;
+  }
 }
